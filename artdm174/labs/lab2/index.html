@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaur Cosmetics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preload" href="fonts/lemon-milk-bold.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="fonts/Sofia-Pro-Regular-Az.otf" as="font" type="font/otf" crossorigin>
+    <link rel="icon" href="images/initial_logo.png" type="image/png">
+
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/KaurCosmetics_logo.svg" alt="Kaur Cosmetics logo" class="logo-image" />
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Embrace Your Aura</h1>
+    <p class="hero-subtitle">Premium cosmetics crafted for every woman</p>
+    <a href="#products" class="cta-button">Shop Now</a>
+  </div>
+
+  <figure class="hero-media">
+    <video
+      class="hero-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      poster="images/faces.jpg"             
+      aria-label="Glowy makeup video">
+      <source src="images/glowy.mp4" type="video/mp4" />
+      
+      <img src="images/faces.jpg" alt="Models with glowing makeup">
+    </video>
+  </figure>
+</section>  
+
+<section class="as-seen-in">
+<div class="container">
+<p class="eyebrow">As Seen In</p>
+
+
+<div class="ticker" aria-label="As Seen In logos scrolling horizontally">
+<div class="ticker__track">
+<!-- Sequence A -->
+<div class="ticker__sequence" aria-hidden="false">
+<a class="logo" href="#" aria-label="Allure Magazine"><img src="images/allure.svg" alt="Allure"></a>
+<a class="logo" href="#" aria-label="The New York Times"><img src="images/newyorktimes.svg" alt="The New York Times"></a>
+<a class="logo" href="#" aria-label="BYRDIE"><img src="images/byrdie.svg" alt="BYRDIE"></a>
+<a class="logo" href="#" aria-label="BuzzFeed"><img src="images/buzzfeed.svg" alt="BuzzFeed"></a>
+<a class="logo" href="#" aria-label="Refinery29"><img src="images/refinery29.svg" alt="Refinery29"></a>
+<a class="logo" href="#" aria-label="Vogue"><img src="images/vogue.svg" alt="Vogue"></a>
+<a class="logo" href="#" aria-label="ELLE"><img src="images/elle.svg" alt="ELLE"></a>
+<a class="logo" href="#" aria-label="Harper's Bazaar"><img src="images/harpers.svg" alt="Harper's Bazaar"></a>
+<a class="logo" href="#" aria-label="Popsugar"><img src="images/popsugar.svg" alt="Popsugar"></a>
+</div>
+
+
+<!-- Sequence B -->
+<div class="ticker__sequence" aria-hidden="true">
+<a class="logo" href="#" aria-label="Allure Magazine"><img src="images/allure.svg" alt="Allure"></a>
+<a class="logo" href="#" aria-label="The New York Times"><img src="images/newyorktimes.svg" alt="The New York Times"></a>
+<a class="logo" href="#" aria-label="BYRDIE"><img src="images/byrdie.svg" alt="BYRDIE"></a>
+<a class="logo" href="#" aria-label="BuzzFeed"><img src="images/buzzfeed.svg" alt="BuzzFeed"></a>
+<a class="logo" href="#" aria-label="Refinery29"><img src="images/refinery29.svg" alt="Refinery29"></a>
+<a class="logo" href="#" aria-label="Vogue"><img src="images/vogue.svg" alt="Vogue"></a>
+<a class="logo" href="#" aria-label="ELLE"><img src="images/elle.svg" alt="ELLE"></a>
+<a class="logo" href="#" aria-label="Harper's Bazaar"><img src="images/harpers.svg" alt="Harper's Bazaar"></a>
+<a class="logo" href="#" aria-label="Popsugar"><img src="images/popsugar.svg" alt="Popsugar"></a>
+</div>
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+    <!-- Featured Products Section -->
+<section id="products" class="featured-products">
+  <div class="container">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="products-grid">
+      
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img
+            class="product-photo"
+            src="images/lipstick.png"           
+            alt="Luxe Lipstick Collection"
+            loading="lazy" decoding="async"
+          />
+        </div>
+        <div class="product-info">
+          <h3>Luxe Lipstick Collection</h3>
+          <p class="product-price">$24.99</p>
+          <p class="product-description">Long-lasting, vibrant colors that complement every skin tone.</p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img
+            class="product-photo"
+            src="images/foundation.png"
+            alt="Perfect Foundation shade range"
+            loading="lazy" decoding="async"
+          />
+        </div>
+        <div class="product-info">
+          <h3>Perfect Foundation</h3>
+          <p class="product-price">$32.99</p>
+          <p class="product-description">Flawless coverage with a natural, dewy finish.</p>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img
+            class="product-photo"
+            src="images/eyeshadow.jpg"          
+            alt="Eyeshadow Palette"
+            loading="lazy" decoding="async"
+          />
+        </div>
+        <div class="product-info">
+          <h3>Eyeshadow Palette</h3>
+          <p class="product-price">$45.99</p>
+          <p class="product-description">12 stunning shades for day and night looks.</p>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img
+            class="product-photo"
+            src="images/mascara.jpg"           
+            alt="Volume Mascara"
+            loading="lazy" decoding="async"
+          />
+        </div>
+        <div class="product-info">
+          <h3>Volume Mascara</h3>
+          <p class="product-price">$18.99</p>
+          <p class="product-description">Dramatic volume and length for stunning lashes.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Kaur Cosmetics</h2>
+                    <p>Founded with a passion for enhancing natural beauty, Kaur Cosmetics has been creating premium cosmetics for over a decade. Our products are carefully formulated with high-quality ingredients to provide exceptional results while maintaining ethical standards.</p>
+                    <p>We believe that beauty should be accessible, sustainable, and empowering. Every product in our collection is designed to help you express your unique style and feel confident in your own skin.</p>
+                </div>
+               <div class="about-image">
+                <img
+                     class="about-photo"
+                     src="images/aboutus.jpg"
+                        alt="Group of diverse women smiling together"
+                         loading="lazy" decoding="async"
+                />
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for exclusive offers and beauty tips</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> info@kaurcosmetics.com</p>
+        <p><strong>Phone:</strong> (555) 123-4567</p>
+        <p><strong>Address:</strong> 123 Any Street, San Francisco, CA 12345</p>
+      </div>
+
+      <div class="contact-image">
+        <img
+          class="contact-photo"
+          src="images/faces.jpg"
+          alt="Three models with radiant makeup in diverse skin tones"
+          loading="lazy" decoding="async"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <!-- Footer -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-content">
+      <section class="footer-section" aria-labelledby="footer-brand">
+        <h3 id="footer-brand">Kaur Cosmetics</h3>
+        <p>Premium cosmetics for every woman.</p>
+      </section>
+
+      <nav class="footer-section" aria-labelledby="footer-links">
+        <h4 id="footer-links">Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="footer-section" aria-labelledby="footer-social">
+        <h4 id="footer-social">Follow Us</h4>
+        <p>Stay connected on social media</p>
+        <ul class="social-links" aria-label="Social media links">
+          <li>
+            <a class="social-link"
+               href="https://www.facebook.com/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Kaur Cosmetics on Facebook">
+              <img class="social-icon" src="images/facebook.svg" width="22" height="22" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="social-link"
+               href="https://www.instagram.com/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Kaur Cosmetics on Instagram">
+              <img class="social-icon" src="images/instagram.svg" width="22" height="22" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="social-link"
+               href="https://www.pinterest.com/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Kaur Cosmetics on Pinterest">
+              <img class="social-icon" src="images/pinterest.svg" width="22" height="22" alt="">
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kaur Cosmetics. All rights reserved.</p>
+      <p>This fictitious website was created as an academic exercise for the Diablo Valley College course, ARTDM-174: Web Design &amp; Javascript. In no way should this content be considered or used as a source of factual public information.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
