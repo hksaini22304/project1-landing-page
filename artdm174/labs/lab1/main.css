@@ -1,0 +1,134 @@
+/*<!--
+  Student Name: Harjot Kaur Saini
+  Assignment Name: Lab 1 : CSS Layout with Flexbox and Grid
+  Date: 02/05/2025
+*/
+
+/* MOBILE SIZE */
+@media only screen and (max-width : 700px) {
+
+    body {
+      background-color: #9c684a
+      ;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .logoTitle {
+      align-items: center;
+      background-color: #895129 ;
+      color: #1b0000;
+      display: flex;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-right: 5%;
+    }
+  
+    .logoTitle figure {
+      margin: 0;
+      padding-right: 5%;
+    }
+  
+    nav {
+      background-color: #eab76a;
+      display: flex;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      justify-content: space-between;
+      padding: 3% 3%;
+    }
+  
+    nav a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+  
+    .grid {
+      box-sizing: border-box;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;  
+    }
+  
+    .grid img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  
+    .grid .mainText {
+      color: rgb(220, 215, 204);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      grid-column: 2 / span 2;
+      grid-row: 2;
+      padding: 5%;
+    }
+  
+    .grid h2 {
+      color: rgb(227, 202, 169);
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+  }
+  
+  /* TABLET SIZE AND BIGGER */
+  @media only screen and (min-width : 700px) {
+  
+    body {
+      background-color: #9c684a;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .logoTitle {
+      align-items: center;
+      background-color:  #895129;
+      color:  #1b0000;
+      display: flex;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-right: 1%;
+    }
+  
+    .logoTitle figure {
+      margin: 0;
+      padding-right: 5%;
+    }
+  
+    nav {
+      background-color: #eab76a;
+      display: flex;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      justify-content: space-between;
+      padding: 2% 1%;
+    }
+  
+    nav a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    
+    .grid {
+      box-sizing: border-box;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;  
+    }
+    
+    .grid img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+    
+    .grid .mainText {
+      color: rgb(220, 215, 204);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      grid-column: 2 / span 2;
+      grid-row: 2;
+      padding: 3%;
+    }
+  
+    .grid h2 {
+      color: rgb(227, 202, 169);
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+  }
